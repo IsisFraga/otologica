@@ -1,0 +1,29 @@
+.panel {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: $bg-color;
+    height: 15em;
+
+    .otoscope {
+        width: 100%;
+    }
+
+    .bg-color {
+        background-color: $bg-color;
+        position: absolute;
+        width: 10em;
+        height: 15em;
+        right: 0;
+    }
+
+    .vertical {
+        width: 65%;
+        left: 11em;
+        top: 6em;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+
+    }
+}
