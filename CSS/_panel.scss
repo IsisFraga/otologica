@@ -9,21 +9,28 @@
         width: 100%;
     }
 
-    .bg-color {
-        background-color: $bg-color;
-        position: absolute;
-        width: 10em;
-        height: 15em;
-        right: 0;
-    }
+    // .bg-color {
+    //     background-color: $bg-color;
+    //     position: absolute;
+    //     width: 10em;
+    //     height: 15em;
+    //     right: 0;
+    // }
 
     .vertical {
-        width: 65%;
+        width: 55%;
         left: 11em;
         top: 6em;
         margin: 0;
         padding: 0;
         position: absolute;
+        z-index: 1;
 
+    }
+    .curva {
+        position: absolute;
+        top: 5em;
+        right: 0;
+        height: 16em;
     }
 }

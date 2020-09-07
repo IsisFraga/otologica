@@ -1,0 +1,24 @@
+.certificates {
+    list-style: none;
+
+    h3 {
+        font-size: 1em;
+        margin: 2em 0 1em;
+    }
+
+    .icons {
+        margin: 1em;
+
+        figcaption {
+            font-size: 0.8em;
+            font-weight: 400;
+        }
+    }
+
+    .icon {
+        width: 4em;
+        border-radius: 100%;
+        border: 2px solid $yellow-color;
+        padding: 5px;
+    }
+}
