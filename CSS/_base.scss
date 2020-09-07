@@ -1,0 +1,26 @@
+$primary-color: #e2e2e2;
+$bg-color: #072233;
+$yellow-color: #dd9e2f;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.zap {
+    position: fixed;
+    right: 1.5em;
+    overflow-y: scroll;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .txt_zap{
+        background-color: $yellow-color;
+        text-align: center;
+    }
+}

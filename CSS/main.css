@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.zap {
+  position: fixed;
+  right: 1.5em;
+  overflow-y: scroll;
+  max-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.zap .txt_zap {
+  background-color: #dd9e2f;
+  text-align: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+header .logoHeader {
+  width: 50%;
+}
+
+.panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #072233;
+  height: 15em;
+}
+
+.panel .otoscope {
+  width: 100%;
+}
+
+.panel .vertical {
+  width: 55%;
+  left: 11em;
+  top: 6em;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.panel .curva {
+  position: absolute;
+  top: 5em;
+  right: 0;
+  height: 16em;
+}
+
+.infos {
+  text-align: center;
+  margin: 2em 5em;
+  color: #072233;
+}
+
+.infos h2 {
+  font-weight: 400;
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+.certificates {
+  list-style: none;
+}
+
+.certificates h3 {
+  font-size: 1em;
+  margin: 2em 0 1em;
+}
+
+.certificates .icons {
+  margin: 1em;
+}
+
+.certificates .icons figcaption {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.certificates .icon {
+  width: 4em;
+  border-radius: 100%;
+  border: 2px solid #dd9e2f;
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */
